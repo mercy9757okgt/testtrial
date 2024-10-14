@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Thumb Gardening Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service {
+            width: 30%;
+            padding: 10px;
+            background-color: #e7f3fe;
+            border: 1px solid #cce5ff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Green Thumb Gardening Services</h1>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Lawn Care</h3>
+            <p>Professional lawn mowing, fertilization, and maintenance services.</p>
+        </div>
+        <div class="service">
+            <h3>Garden Design</h3>
+            <p>Customized garden design and installation tailored to your preferences.</p>
+        </div>
+        <div class="service">
+            <h3>Tree & Shrub Care</h3>
+            <p>Trimming, pruning, and care for trees and shrubs to keep them healthy.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At Green Thumb Gardening Services, we are passionate about transforming outdoor spaces into beautiful gardens. Our experienced team is dedicated to providing top-notch gardening services tailored to your needs. We believe in using eco-friendly practices to promote a healthy environment.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Green Thumb Gardening Services. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
